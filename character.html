@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>꼬마공룡 코코비</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Jua&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable-dynamic-subset.min.css">
+  <link rel="stylesheet" href="css/character.css?v=1">
+</head>
+<body>
+  <a class="home" href="index.html" aria-label="홈으로">
+    <img src="assets/cocobi/logo.png" alt="꼬마공룡 코코비">
+  </a>
+
+  <main class="panel" id="panel">
+    <div class="flowers" id="flowers" aria-hidden="true"></div>
+    <header class="head">
+      <h1 class="head__name" id="name"></h1>
+      <p class="head__tag" id="tag"></p>
+    </header>
+    <div class="body" id="body"></div>
+  </main>
+
+  <section class="others" aria-labelledby="others-title">
+    <h2 class="others__title" id="others-title">다른 친구들도 만나보세요</h2>
+    <nav class="others__list" id="others"></nav>
+  </section>
+
+  <footer class="foot">© KIGLE Corp. 코코비의 모든 저작권은 (주)키글에 있습니다.</footer>
+
+  <dialog class="sheet" id="sheet">
+    <div class="sheet__inner" id="sheet-body"></div>
+    <button class="sheet__close" type="button" aria-label="닫기" onclick="this.closest('dialog').close()">✕</button>
+  </dialog>
+
+  <script src="js/characters.js?v=1"></script>
+  <script src="js/character.js?v=1"></script>
+</body>
+</html>

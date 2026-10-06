@@ -1,0 +1,37 @@
+# 비밀 정보·빌드 결과
+.env
+__pycache__/
+dist/
+
+# 코코비 페이지와 관계없는 파일 — 노트북에만 보관
+section.html
+css/section.css
+js/sections.js
+js/section.js
+docs/
+.env.example
+assets/prompts.json
+scripts/genimage.py
+scripts/fetch_cocobi.py
+
+# 생성 이미지: 페이지에서 쓰는 것만 올린다
+assets/generated/*
+!assets/generated/og.webp
+!assets/generated/outro-art.webp
+
+# 코코비 공식 이미지: 페이지에서 쓰는 것만 올린다
+assets/cocobi/*
+!assets/cocobi/characters_[0-9][0-9].png
+!assets/cocobi/characters_[0-9][0-9]_detail.png
+!assets/cocobi/characters_bg_object_[0-9][0-9].png
+!assets/cocobi/characters_txt_object_01.png
+!assets/cocobi/characters_txt_object_04.png
+!assets/cocobi/characters_txt_object_05.png
+!assets/cocobi/main_characters_cloud_01.png
+!assets/cocobi/main_characters_cloud_03.png
+!assets/cocobi/main_characters_coco_img.png
+!assets/cocobi/main_characters_lobi_img.png
+!assets/cocobi/main_characters_logo.png
+!assets/cocobi/logo.png
+!assets/cocobi/cocobiTxt.svg
+!assets/cocobi/main_visual_bg.jpg

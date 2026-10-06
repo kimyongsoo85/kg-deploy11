@@ -1,0 +1,140 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>꼬마공룡 코코비</title>
+  <meta name="description" content="꼬마공룡 코코비와 친구들을 소개합니다">
+  <meta property="og:image" content="assets/generated/og.webp">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' fill='%230061fe'/%3E%3Cpath fill='white' d='M50 14C53 38 62 47 86 50C62 53 53 62 50 86C47 62 38 53 14 50C38 47 47 38 50 14Z'/%3E%3C/svg%3E">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,100..900&family=Jua&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable-dynamic-subset.min.css">
+  <link rel="stylesheet" href="css/style.css?v=6">
+</head>
+<body class="is-intro">
+  <svg width="0" height="0" style="position:absolute" aria-hidden="true">
+    <defs>
+      <path id="star" d="M50 2C54 34 66 46 98 50C66 54 54 66 50 98C46 66 34 54 2 50C34 46 46 34 50 2Z"/>
+    </defs>
+  </svg>
+
+  <main class="stage" id="stage">
+    <div class="lines" id="lines" aria-hidden="true"></div>
+
+    <nav class="tiles" aria-label="코코비 캐릭터">
+      <a class="tile tile--char" href="character.html?c=lala" data-shift="4,2" style="--bg:#2f2a73;--on:#ffb36b;--deep:#1f1b52">
+        <span class="tile__title">라라</span>
+        <span class="tile__sub">LALA · 미스터리 막내</span>
+        <span class="tile__cta">만나러 가기 <span aria-hidden="true">→</span></span>
+        <span class="char-card char-card--stars"><img src="assets/cocobi/characters_03.png" alt="" loading="eager"></span>
+      </a>
+
+      <a class="tile tile--char" href="character.html?c=coco" data-shift="-0.1,1" style="--bg:#9b5de5;--on:#ffe3f0;--deep:#6f37b8">
+        <span class="tile__title">코코</span>
+        <span class="tile__sub">COCO · 6살 씩씩한 누나</span>
+        <span class="tile__cta">만나러 가기 <span aria-hidden="true">→</span></span>
+        <img class="char-cut char-cut--coco" src="assets/cocobi/main_characters_coco_img.png" alt="" loading="eager">
+      </a>
+
+      <a class="tile tile--char" href="character.html?c=donna" data-shift="-1,-0.1" style="--bg:#1fb39b;--on:#fff1b8;--deep:#14806f">
+        <span class="tile__title">도나</span>
+        <span class="tile__sub">DONNA · 엄마</span>
+        <span class="tile__cta">만나러 가기 <span aria-hidden="true">→</span></span>
+        <span class="char-card"><img src="assets/cocobi/characters_01.png" alt="" loading="eager"></span>
+      </a>
+
+      <a class="tile tile--char" href="character.html?c=bell" data-shift="-4,2" style="--bg:#8ed12c;--on:#0f4f2a;--deep:#63a313">
+        <span class="tile__title">벨</span>
+        <span class="tile__sub">BELL · 4살 벨로시랩터</span>
+        <span class="tile__cta">만나러 가기 <span aria-hidden="true">→</span></span>
+        <span class="char-card"><img src="assets/cocobi/characters_08.png" alt="" loading="eager"></span>
+      </a>
+
+      <a class="tile tile--char" href="character.html?c=etc" data-shift="4,-2" style="--bg:#43281a;--on:#fff3c4;--deep:#2c190f">
+        <span class="tile__title">ETC</span>
+        <span class="tile__sub">가족과 친구들 9명</span>
+        <span class="tile__cta">만나러 가기 <span aria-hidden="true">→</span></span>
+        <span class="etc-fan"><img src="assets/cocobi/characters_04.png" alt=""><img src="assets/cocobi/characters_09.png" alt=""><img src="assets/cocobi/characters_10.png" alt=""><img src="assets/cocobi/characters_13.png" alt=""><img src="assets/cocobi/characters_14.png" alt=""><span class="etc-more">+4</span></span>
+      </a>
+
+      <a class="tile tile--char" href="character.html?c=bob" data-shift="1,0.1" style="--bg:#5865f2;--on:#ffe14d;--deep:#3b46c4">
+        <span class="tile__title">밥</span>
+        <span class="tile__sub">BOB · 아빠</span>
+        <span class="tile__cta">만나러 가기 <span aria-hidden="true">→</span></span>
+        <span class="char-card"><img src="assets/cocobi/characters_02.png" alt="" loading="eager"></span>
+      </a>
+
+      <a class="tile tile--char" href="character.html?c=lovey" data-shift="0.1,-1" style="--bg:#e8505b;--on:#ffe066;--deep:#b8323d">
+        <span class="tile__title">러비</span>
+        <span class="tile__sub">LOBI · 4살 귀염둥이</span>
+        <span class="tile__cta">만나러 가기 <span aria-hidden="true">→</span></span>
+        <img class="char-cut char-cut--lovey" src="assets/cocobi/main_characters_lobi_img.png" alt="" loading="eager">
+      </a>
+
+      <a class="tile tile--char" href="character.html?c=jackjack" data-shift="-4,-2" style="--bg:#ffb199;--on:#7a1f1f;--deep:#f28b6e">
+        <span class="tile__title">잭잭</span>
+        <span class="tile__sub">JACK · 4살 티라노사우루스</span>
+        <span class="tile__cta">만나러 가기 <span aria-hidden="true">→</span></span>
+        <span class="char-card"><img src="assets/cocobi/characters_07.png" alt="" loading="eager"></span>
+      </a>
+    </nav>
+
+    <button class="core" id="core" type="button" aria-label="전체 섹션 보기">
+      <!-- 1단계: 흰 카드 자리 — 코코비 가족 일러스트 + 웰컴 -->
+      <span class="core__title core__title--1 cb-hero">
+        <img class="cb-hero__scene" src="assets/cocobi/main_visual_bg.jpg" alt="집 앞에 모인 코코비 가족" decoding="async">
+        <img class="cb-hero__logo" src="assets/cocobi/main_characters_logo.png" alt="꼬마공룡 코코비">
+        <span class="cb-hero__welcome">코코비 홈페이지에 놀러 온 걸 환영해요!</span>
+      </span>
+      <!-- 2단계: 파란 카드 자리 — 브랜드 로고 + 이름의 의미 -->
+      <span class="core__title core__title--2 meaning">
+        <span class="meaning__dots" aria-hidden="true"></span>
+        <img class="meaning__logo" src="assets/cocobi/main_characters_logo.png" alt="꼬마공룡 코코비">
+        <span class="meaning__text">
+          <img class="meaning__word" src="assets/cocobi/cocobiTxt.svg" alt="코코비">는<br>
+          용감한 <b class="pill pill--coco">코코</b>와<br>
+          귀여운 <b class="pill pill--lobi">러비</b>의<br>
+          이름을 합친 말이에요!
+        </span>
+        <img class="meaning__peek meaning__peek--coco" src="assets/cocobi/main_characters_coco_img.png" alt="">
+        <img class="meaning__peek meaning__peek--lobi" src="assets/cocobi/main_characters_lobi_img.png" alt="">
+      </span>
+      <img class="core__mark" src="assets/cocobi/logo.png" alt="" aria-hidden="true">
+      <svg class="core__icon core__icon--info" viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h13M13 6l6 6-6 6"/></svg>
+      <svg class="core__icon core__icon--close" viewBox="0 0 24 24" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18"/></svg>
+      <span class="chevrons" aria-hidden="true">
+        <svg class="chevron" viewBox="0 0 24 14"><path d="M2 2l10 10L22 2"/></svg>
+        <svg class="chevron" viewBox="0 0 24 14"><path d="M2 2l10 10L22 2"/></svg>
+      </span>
+    </button>
+  </main>
+
+  <aside class="outro" id="outro" aria-hidden="true">
+    <div class="outro__inner">
+      <div class="outro__head">
+        <h2 class="outro__heading"><span class="hang">&ldquo;</span>Made with care, one tile at a&nbsp;time.&rdquo;</h2>
+        <p class="outro__lead">Kigle Studio · Brand system</p>
+      </div>
+      <div class="outro__info">
+        <p>This page is the starting point for introducing Kigle Studio. Every tile opens a chapter of how we think, design and build, ready to be rewritten as the service grows.</p>
+        <p>The pictures were generated for this project, and every interaction is hand-built with plain HTML, CSS and JavaScript.</p>
+        <div class="outro__links">
+          <a href="#contact">Get in touch <span aria-hidden="true">→</span></a>
+          <a href="assets/generated/og.webp" download>Download assets <span aria-hidden="true">↓</span></a>
+        </div>
+      </div>
+      <figure class="outro__art">
+        <img src="assets/generated/outro-art.webp" alt="" decoding="async" onerror="this.parentNode.classList.add('is-empty');this.remove()">
+      </figure>
+      <p class="outro__credits">© 2026 Kigle Studio <span aria-hidden="true">✦</span> Crafted in Seoul</p>
+    </div>
+    <div class="cursors" id="cursors" aria-hidden="true"></div>
+  </aside>
+
+  <div class="scroll-track" aria-hidden="true"></div>
+
+  <script src="js/main.js?v=6"></script>
+</body>
+</html>
