@@ -217,7 +217,7 @@ a { color: inherit; }
 .core__title--2 { opacity: 0; }
 
 /* 1단계: 가족 일러스트 + 웰컴 */
-.cb-hero { inset: 0; width: 100%; height: 100%; display: block; }
+.cb-hero { inset: 0; width: 100%; height: 100%; display: block; container-type: size; }
 .cb-hero__scene {
   position: absolute; inset: 0;
   width: 100%; height: 100%;
@@ -245,7 +245,7 @@ a { color: inherit; }
   background: var(--cb-brown);
   color: #fff;
   font-family: var(--round);
-  font-size: clamp(18px, 2.6vw, 30px);
+  font-size: clamp(14px, 3.7cqw, 30px); /* 카드 크기에 맞춰 줄어 배지 밖으로 넘치지 않게 */
   line-height: 1.2;
   white-space: nowrap;
   box-shadow: 0 10px 24px -10px rgba(67, 40, 26, 0.6);
